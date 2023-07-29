@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Travel The World</title>
+        <link rel="stylesheet" href="./style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+    </head>
+
+    <body>
+
+        <header>
+            <a href="#" class="brand">Travel</a>
+            <div class="menu-btn"></div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="content">
+                <h1>Wonderful<br><span>Island</span></h1>
+                <p>
+                    Traveling can be one of the most amazing and rewarding experiences of your life.
+                    Travelling is a great way to learn new things and broaden your view of the world.
+                    It enables us to meet new people, make new friendships, and develop a universal outlook.
+                    Travelling brings us in close contact with nature, which can be a feast for the eyes and help us forget the worries of daily life.
+                    By traveling to new places, we can learn about new people and systems, and gain a better understanding of the world.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="media-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            //Javascript of responsive navigation menu
+            const menuBtn = document.querySelector(".menu-btn");
+
+            menuBtn.addEventListener("click", () => {
+                menuBtn.classList.toggle("active");
+            });
+
+        </script>
+
+    </body>
+
+</html>
